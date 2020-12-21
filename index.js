@@ -49,14 +49,14 @@ function createCard(data){
     
     var my_card = document.createElement("div")
     
-    my_card.setAttribute("class","m-4 float-left")
+    my_card.setAttribute("class","ml-4 pl-2 float-left")
     
     var title = document.createElement("h2")
     title.textContent =  data.strMeal
     var img = document.createElement("img")
     
     img.setAttribute("src", data.strMealThumb)
-    img.setAttribute("width", "200px")
+    img.setAttribute("width", "300px")
     my_card.append(title,img)
     
     console.log(data)
